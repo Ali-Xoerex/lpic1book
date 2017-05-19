@@ -22,7 +22,7 @@ Candidates should know how to set up a basic level of host security.
 - /etc/hosts.deny
 
 ### shadow passwords
-The `/dev/passwd` is already discussed. It contains the passwords of the users but there is a logical problem: if a user should be able to change her own password, he should have access to this file and if this is the case, he can see other peoples passwords. This is not interesting even when the passwords are hashed (shown as a more complex form using a one way function). 
+The `/etc/passwd` is already discussed. It contains the passwords of the users but there is a logical problem: if a user should be able to change her own password, he should have access to this file and if this is the case, he can see other peoples passwords. This is not interesting even when the passwords are hashed (shown as a more complex form using a one way function). 
 
 ````
 $ ls -ltrh /etc/passwd
